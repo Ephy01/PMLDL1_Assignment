@@ -26,7 +26,7 @@ Dataset: [100,000 UK Used Car Dataset — Aditya, Kaggle](https://www.kaggle.com
   
 3. `code/deployment/docker-compose.yml`: build FastAPI and Streamlit containers, wait for API health, and serve the model. API validates inputs and returns `price_gbp`.
 
-`notebooks/eda.ipynb` used for data eploration identifying missing values, outliers, distributions.
+`notebooks/eda.ipynb` used for data exploration identifying missing values, outliers, distributions.
 
 ## Pipeline flow
 
@@ -69,7 +69,7 @@ curl -X POST http://localhost:8000/predict \
 ./run_airflow.sh
 ```
 
-Open http://localhost:8080 and enable `ford_price_pipeline`. The DAG runs prepare → train → deploy every five minutes, with one active run at a time. New installations create it paused. The obsolete `coffee_quality_pipeline` is retired and paused; its historical runs remain in the local Airflow database.
+Open http://localhost:8080 and enable `ford_price_pipeline`. The DAG runs prepare → train → deploy every five minutes, with one active run at a time. 
 
 For a complete local DAG run:
 
