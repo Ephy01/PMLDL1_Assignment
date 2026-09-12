@@ -93,7 +93,7 @@ def show_prediction(car_details: dict) -> None:
 
         st.metric("Estimated advertised price", f"£{price:,.0f}")
         st.caption(
-            "Historical listing estimate; not a current valuation or a completed sale price."
+            "just a simple estimation"
         )
     except requests.RequestException as error:
         st.error(f"Prediction failed: {error}")
