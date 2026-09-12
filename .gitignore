@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+mlruns/
+mlflow.db
+mlartifacts/
+services/airflow/logs/
+services/airflow/*.db*
+services/airflow/*.cfg
+services/airflow/*.pid
+services/airflow/*.log
+services/airflow/simple_auth_manager_passwords.json.generated
+data/processed/*.csv

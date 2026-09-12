@@ -1,0 +1,20 @@
+# pipeline + orchestration; the API / app images pin their own deps
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+apache-airflow==3.3.1
+apache-airflow-providers-standard==1.17.0
+# needed only to run the API / app outside Docker
+fastapi==0.136.3
+uvicorn==0.52.1
+pydantic==2.13.4
+streamlit==1.63.0
+requests==2.34.2
+# notebooks
+matplotlib
+jupyter
+
+# ONNX export and inference
+onnx==1.22.0
+skl2onnx==1.20.0
+onnxruntime==1.30.0

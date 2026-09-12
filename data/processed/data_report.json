@@ -1,0 +1,19 @@
+{
+  "raw_rows": 17965,
+  "clean_rows": 17811,
+  "train_rows": 14244,
+  "test_rows": 3567,
+  "missing_after_cleaning": {
+    "model": 0,
+    "year": 1,
+    "price": 0,
+    "transmission": 0,
+    "mileage": 0,
+    "fuel_type": 0,
+    "tax": 0,
+    "mpg": 0,
+    "engine_size": 51
+  },
+  "split": "grouped by identical feature values",
+  "seed": 42
+}

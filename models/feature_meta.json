@@ -1,0 +1,79 @@
+{
+  "categorical": {
+    "model": [
+      "B-MAX",
+      "C-MAX",
+      "EcoSport",
+      "Edge",
+      "Escort",
+      "Fiesta",
+      "Focus",
+      "Fusion",
+      "Galaxy",
+      "Grand C-MAX",
+      "Grand Tourneo Connect",
+      "KA",
+      "Ka+",
+      "Kuga",
+      "Mondeo",
+      "Mustang",
+      "Puma",
+      "Ranger",
+      "S-MAX",
+      "Streetka",
+      "Tourneo Connect",
+      "Tourneo Custom"
+    ],
+    "transmission": [
+      "Automatic",
+      "Manual",
+      "Semi-Auto"
+    ],
+    "fuel_type": [
+      "Diesel",
+      "Electric",
+      "Hybrid",
+      "Other",
+      "Petrol"
+    ]
+  },
+  "numeric": {
+    "year": {
+      "min": 1996.0,
+      "max": 2020.0,
+      "median": 2017.0
+    },
+    "mileage": {
+      "min": 1.0,
+      "max": 177644.0,
+      "median": 18350.0
+    },
+    "tax": {
+      "min": 0.0,
+      "max": 580.0,
+      "median": 145.0
+    },
+    "mpg": {
+      "min": 20.8,
+      "max": 201.8,
+      "median": 58.9
+    },
+    "engine_size": {
+      "min": 1.0,
+      "max": 5.0,
+      "median": 1.2
+    }
+  },
+  "format": "onnx",
+  "target": "price",
+  "currency": "GBP",
+  "dataset": "Kaggle 100,000 UK Used Car Dataset / ford.csv",
+  "collection_year": 2020,
+  "metrics": {
+    "mae": 832.6959228515625,
+    "rmse": 1203.362840127615,
+    "r2": 0.9348896145820618,
+    "baseline_mae": 3609.5149985982616,
+    "mae_improvement_pct": 76.93053157626618
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "test_rows": 3567,
+  "edge_case_rows": 3,
+  "max_absolute_difference_gbp": 0.004927265570586314,
+  "tolerance_gbp": 0.1,
+  "opset": 17
+}

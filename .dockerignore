@@ -1,0 +1,8 @@
+.git
+.venv
+data
+notebooks
+services
+mlruns
+*.db*
+**/__pycache__
